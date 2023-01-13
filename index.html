@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./assets/tv-logo.png">
+    <title>TV Show Finder</title>
+</head>
+<body>
+
+
+    <header>
+        <nav class="navigation-container">
+            <div class="tv-logo-container">            
+                <img src="./assets/tv-logo.png" alt="Television logo" class="tv-logo">
+                <h1>TV Show Finder</h1>
+            </div>
+
+            <ul class="navigation-flex">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#find-tv-show">Find TV Show</a></li>
+                <li><a href=""></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="about" id="about">
+        <div class="about-title">
+            <h1>Don't know what to watch? We'll help!</h1>
+        </div>
+        <div class="about-image">
+            <img src="./assets/remote.png" alt="Image of a hand holding a remote controller" class="remote">
+        </div>
+        <div class="about-description">
+            <p>If you are wondering about what TV show you want to watch next but don't quite know where to start your research or what the show is all about, simply research the show by its title down here and you will get several results. Pick the one that you might like and learn more about the show.</p>
+        </div>
+    </section>
+
+    <section class="tv-show-search">
+        <form action="" class="form-container" id="find-tv-show">
+            <h2>Find your next TV Show</h2>
+            <div class="search-container">           
+                <input type="text" class="search-bar" placeholder="Search a TV Show...">
+                <button class="submit-search" type="submit">Search</button>
+            </div>
+
+        </form>
+    </section>
+
+    <section class="tv-show-list">
+        <div class="tv-show-container"></div>
+    </section>
+
+    <section class="tv-show-summary hide">
+        <div class="close-button"></div>
+        <div class="tv-show-information">
+        </div>
+    </section>
+
+    <footer>
+        <h3>Created by Gaspare at <a href="https://junocollege.com/">Juno College</a></h3>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
